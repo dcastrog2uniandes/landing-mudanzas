@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iniciar sesión</title>
+  <!-- Agregar Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .login-container {
+      padding: 20px;
+      max-width: 800px;
+    }
+
+    .login-form {
+      padding-left: 40px;
+    }
+
+    .login-form h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-control {
+      border-radius: 5px;
+    }
+
+    .btn-primary {
+      border-radius: 5px;
+    }
+
+    .btn-primary:hover {
+      background-color: #0056b3;
+    }
+
+    .company-name {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .login-image {
+      background-image: url('https://static.vecteezy.com/system/resources/previews/008/516/751/non_2x/house-moving-service-vector.jpg'); /* Ruta de la imagen de fondo */
+      background-size: cover;
+      background-position: center;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      height: 100%; /* Agregamos una altura al contenedor de la imagen */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="login-image"></div>
+      </div>
+      <div class="col-md-6">
+        <div class="login-container">
+          <div class="company-name">MudApp</div>
+          <h4>Ingresar</h4>
+          <form>
+            <div class="form-group">
+              <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo electrónico">
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Contraseña">
+            </div>
+            <a href="home.html" class="btn btn-primary btn-block btn-lg">Acceder</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
